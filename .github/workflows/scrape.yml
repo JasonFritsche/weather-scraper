@@ -14,11 +14,11 @@ jobs:
       - run: npm ci
 
       - name: Fetch resources
-        run: node ./main.js
+        run: node ./scraper.js
 
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
-          file-path: showdata.json
+          file-path: weatherdata.json
           commit-msg: Update resources
           github-token: ${{ secrets.GITHUB_TOKEN }}
