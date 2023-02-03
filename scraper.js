@@ -14,7 +14,9 @@ async function scrape() {
   const browser = await puppeteer.launch({ dumpio: true });
   const page = await browser.newPage();
 
-  await page.goto("https://weather.com/weather/tenday/l/Austin+TX");
+  await page.goto(
+    "https://weather.com/weather/tenday/l/Austin+TX?canonicalCityId=14bfa21beb1bfe8c8d8dbc074f27e187616b7c9ecab43c6e42238e2ed1a5be47"
+  );
 
   const weatherData = await page.evaluate(() =>
     Array.from(
