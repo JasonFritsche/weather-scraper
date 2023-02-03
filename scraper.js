@@ -1,3 +1,5 @@
+import puppeteer from "puppeteer";
+
 async function scrape() {
   const browser = await puppeteer.launch({ dumpio: true });
   const page = await browser.newPage();
@@ -9,6 +11,13 @@ async function scrape() {
       document.querySelectorAll(".DaypartDetails--DayPartDetail--2XOOV"),
       (e) => ({
         date: e.querySelector("h3").innerText,
+        highTemp: e.querySelector(".DetailsSummary--highTempValue--3PjlX")
+          .innerText,
+        lowTemp: e.querySelector(".DetailsSummary--lowTempValue--2tesQ")
+          .innerText,
+        precipitationPercentage: e.querySelector(
+          ".DetailsSummary--precip--1a98O"
+        ).innerText,
       })
     )
   );
