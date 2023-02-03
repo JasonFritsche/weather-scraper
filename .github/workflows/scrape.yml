@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
 jobs:
   resources:
-    name: Update resources
-    runs-on: ubuntu-latest
+    name: Mac resources
+    runs-on: macos-latest
     steps:
       - uses: actions/checkout@v3
 
