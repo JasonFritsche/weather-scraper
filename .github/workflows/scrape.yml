@@ -1,0 +1,24 @@
+name: Resources
+on:
+  workflow_dispatch:
+jobs:
+  resources:
+    name: Update resources
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm ci
+
+      - name: Fetch resources
+        run: node ./main.js
+
+      - name: Update resources
+        uses: test-room-7/action-update-file@v1
+        with:
+          file-path: showdata.json
+          commit-msg: Update resources
+          github-token: ${{ secrets.GITHUB_TOKEN }}
