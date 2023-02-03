@@ -1,5 +1,15 @@
 import puppeteer from "puppeteer";
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
+const __filename = fileURLToPath(import.meta.url);
+
+const __dirname = path.dirname(__filename);
+
+const pathToData = path.join(__dirname, "weatherdata.json");
+
+let data = null;
 async function scrape() {
   const browser = await puppeteer.launch({ dumpio: true });
   const page = await browser.newPage();
@@ -26,5 +36,8 @@ async function scrape() {
   return weatherData;
 }
 
-const scrapedData = await scrape();
-console.log(scrapedData);
+// execute and persist data
+scrape().then(() => {
+  // persist data
+  fs.writeFileSync(path.resolve(pathToData), JSON.stringify(data, null, 2));
+});
