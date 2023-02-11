@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const pathToData = path.join(__dirname, "weatherdata.json");
 
+let data = null;
 async function scrape() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
@@ -42,10 +43,7 @@ async function scrape() {
 }
 
 // execute and persist data
-scrape().then(() => {
+scrape().then((data) => {
   // persist data
-  fs.writeFileSync(
-    path.resolve(pathToData),
-    JSON.stringify(weatherData, null, 2)
-  );
+  fs.writeFileSync(path.resolve(pathToData), JSON.stringify(data, null, 2));
 });
