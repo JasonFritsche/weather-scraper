@@ -20,11 +20,21 @@ async function scrape() {
 
   const weatherData = await page.evaluate(() =>
     Array.from(document.querySelectorAll("tr.fct_day"), (e) => ({
-      date: e.querySelector("td > div.text-left > .fct-day-of-month").innerText,
-      // highTemp: e.querySelector(".weather-10-day__temperature-high").innerText,
-      // lowTemp: e.querySelector(".weather-10-day__temperature-low").innerText,
-      // precipitationPercentage: e.querySelector(".weather-10-day__precipitation")
-      //   .innerText,
+      dayOfMonth: e.querySelector("td > div.text-left > .fct-day-of-month")
+        .innerText,
+      dayName: e.querySelector("td > div.text-left > .fct-day-of-week")
+        .innerText,
+      weatherIcon: e.querySelector("td.text-center > .fct_daily_icon")
+        .classList[1],
+      weatherIconPercent: e
+        .querySelector("td.text-center")
+        .getElementsByTagName("div")[1].innerText,
+      highTempRange: e.querySelector(
+        "td.text-center > .F > div > .label-danger"
+      ).innerText,
+      lowTempRange: e
+        .querySelector("td.text-center > .F")
+        .getElementsByTagName("div")[1].innerText,
     }))
   );
 
@@ -32,12 +42,8 @@ async function scrape() {
   return weatherData;
 }
 
-const scrapedData = await scrape();
-console.log(scrapedData);
-
 // execute and persist data
-// scrape().then(() => {
-//   console.log(data);
-//   // persist data
-//   // fs.writeFileSync(path.resolve(pathToData), JSON.stringify(data, null, 2));
-// });
+scrape().then(() => {
+  // persist data
+  fs.writeFileSync(path.resolve(pathToData), JSON.stringify(data, null, 2));
+});
