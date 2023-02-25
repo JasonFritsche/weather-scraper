@@ -1,6 +1,8 @@
 name: Resources
 on:
   workflow_dispatch:
+permission:
+  contents: write
 jobs:
   resources:
     name: Scrape
@@ -19,8 +21,6 @@ jobs:
       - name: Update resources
         uses: test-room-7/action-update-file@v1
         with:
-          permission:
-            contents: write
           file-path: ./weatherdata.json
           commit-msg: Update resources
           github-token: ${{ secrets.GITHUB_TOKEN }}
