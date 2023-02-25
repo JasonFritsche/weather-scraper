@@ -1,6 +1,9 @@
 name: Resources
 on:
-  workflow_dispatch:
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  # workflow_dispatch:
 permissions:
   contents: write
 jobs:
