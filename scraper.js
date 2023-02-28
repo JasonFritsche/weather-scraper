@@ -9,7 +9,6 @@ const __dirname = path.dirname(__filename);
 
 const pathToData = path.join(__dirname, "weatherdata.json");
 
-let data = null;
 async function scrape() {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
