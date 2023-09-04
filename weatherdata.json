@@ -1,250 +1,242 @@
 [
   {
     "dayOfMonth": "1",
-    "dayName": "Tue",
-    "weatherIcon": "fct_risky_black",
-    "weatherIconPercent": "52%",
-    "highTempRange": "90 to 100 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "2",
-    "dayName": "Wed",
-    "weatherIcon": "fct_transition",
-    "weatherIconPercent": "28%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "3",
-    "dayName": "Thu",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "25%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "4",
-    "dayName": "Fri",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "24%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "5",
-    "dayName": "Sat",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "23%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "6",
-    "dayName": "Sun",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "24%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "7",
-    "dayName": "Mon",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "11%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "70 to 80 °F"
-  },
-  {
-    "dayOfMonth": "8",
-    "dayName": "Tue",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "34%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "70 to 80 °F"
-  },
-  {
-    "dayOfMonth": "9",
-    "dayName": "Wed",
-    "weatherIcon": "fct_transition",
-    "weatherIconPercent": "48%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "70 to 80 °F"
-  },
-  {
-    "dayOfMonth": "10",
-    "dayName": "Thu",
-    "weatherIcon": "fct_med_grey2",
-    "weatherIconPercent": "47%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "11",
-    "dayName": "Fri",
-    "weatherIcon": "fct_med_grey2",
-    "weatherIconPercent": "48%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "12",
-    "dayName": "Sat",
-    "weatherIcon": "fct_transition",
-    "weatherIconPercent": "13%",
-    "highTempRange": "93 to 103 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "13",
-    "dayName": "Sun",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "13%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "14",
-    "dayName": "Mon",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "06%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "15",
-    "dayName": "Tue",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "40%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "16",
-    "dayName": "Wed",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "35%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "17",
-    "dayName": "Thu",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "06%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "18",
     "dayName": "Fri",
     "weatherIcon": "fct_transition",
     "weatherIconPercent": "42%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "19",
-    "dayName": "Sat",
-    "weatherIcon": "fct_risky_black",
-    "weatherIconPercent": "52%",
-    "highTempRange": "92 to 102 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "20",
-    "dayName": "Sun",
-    "weatherIcon": "fct_risky_black",
-    "weatherIconPercent": "58%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "21",
-    "dayName": "Mon",
-    "weatherIcon": "fct_risky_black",
-    "weatherIconPercent": "71%",
-    "highTempRange": "90 to 100 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "22",
-    "dayName": "Tue",
-    "weatherIcon": "fct_transition",
-    "weatherIconPercent": "47%",
-    "highTempRange": "89 to 99 °F",
-    "lowTempRange": "68 to 78 °F"
-  },
-  {
-    "dayOfMonth": "23",
-    "dayName": "Wed",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "35%",
-    "highTempRange": "89 to 99 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "24",
-    "dayName": "Thu",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "17%",
-    "highTempRange": "89 to 99 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "25",
-    "dayName": "Fri",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "34%",
-    "highTempRange": "90 to 100 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "26",
-    "dayName": "Sat",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "19%",
-    "highTempRange": "90 to 100 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "27",
-    "dayName": "Sun",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "29%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "28",
-    "dayName": "Mon",
-    "weatherIcon": "fct_transition",
-    "weatherIconPercent": "35%",
-    "highTempRange": "91 to 101 °F",
-    "lowTempRange": "69 to 79 °F"
-  },
-  {
-    "dayOfMonth": "29",
-    "dayName": "Tue",
-    "weatherIcon": "fct_risky_black",
-    "weatherIconPercent": "70%",
-    "highTempRange": "90 to 100 °F",
-    "lowTempRange": "67 to 77 °F"
-  },
-  {
-    "dayOfMonth": "30",
-    "dayName": "Wed",
-    "weatherIcon": "fct_med_grey2",
-    "weatherIconPercent": "46%",
-    "highTempRange": "89 to 99 °F",
+    "highTempRange": "88 to 98 °F",
     "lowTempRange": "66 to 76 °F"
   },
   {
-    "dayOfMonth": "31",
+    "dayOfMonth": "2",
+    "dayName": "Sat",
+    "weatherIcon": "fct_risky_black",
+    "weatherIconPercent": "48%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "3",
+    "dayName": "Sun",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "42%",
+    "highTempRange": "87 to 97 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "4",
+    "dayName": "Mon",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "24%",
+    "highTempRange": "88 to 98 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "5",
+    "dayName": "Tue",
+    "weatherIcon": "fct_risky_black",
+    "weatherIconPercent": "53%",
+    "highTempRange": "88 to 98 °F",
+    "lowTempRange": "66 to 76 °F"
+  },
+  {
+    "dayOfMonth": "6",
+    "dayName": "Wed",
+    "weatherIcon": "fct_risky_black",
+    "weatherIconPercent": "55%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "7",
+    "dayName": "Thu",
+    "weatherIcon": "fct_med_grey2",
+    "weatherIconPercent": "44%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "8",
+    "dayName": "Fri",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "41%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "9",
+    "dayName": "Sat",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "34%",
+    "highTempRange": "88 to 98 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "10",
+    "dayName": "Sun",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "21%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "11",
+    "dayName": "Mon",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "38%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "12",
+    "dayName": "Tue",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "39%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "13",
+    "dayName": "Wed",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "42%",
+    "highTempRange": "87 to 97 °F",
+    "lowTempRange": "65 to 75 °F"
+  },
+  {
+    "dayOfMonth": "14",
+    "dayName": "Thu",
+    "weatherIcon": "fct_risky_black",
+    "weatherIconPercent": "76%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "15",
+    "dayName": "Fri",
+    "weatherIcon": "fct_med_grey2",
+    "weatherIconPercent": "43%",
+    "highTempRange": "84 to 94 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "16",
+    "dayName": "Sat",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "19%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "17",
+    "dayName": "Sun",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "14%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "18",
+    "dayName": "Mon",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "07%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "19",
+    "dayName": "Tue",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "17%",
+    "highTempRange": "86 to 96 °F",
+    "lowTempRange": "63 to 73 °F"
+  },
+  {
+    "dayOfMonth": "20",
+    "dayName": "Wed",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "34%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "21",
+    "dayName": "Thu",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "36%",
+    "highTempRange": "84 to 94 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "22",
+    "dayName": "Fri",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "21%",
+    "highTempRange": "84 to 94 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "23",
+    "dayName": "Sat",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "15%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "24",
+    "dayName": "Sun",
+    "weatherIcon": "fct_sun",
+    "weatherIconPercent": "11%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "25",
+    "dayName": "Mon",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "20%",
+    "highTempRange": "85 to 95 °F",
+    "lowTempRange": "63 to 73 °F"
+  },
+  {
+    "dayOfMonth": "26",
+    "dayName": "Tue",
+    "weatherIcon": "fct_med_grey2",
+    "weatherIconPercent": "44%",
+    "highTempRange": "84 to 94 °F",
+    "lowTempRange": "64 to 74 °F"
+  },
+  {
+    "dayOfMonth": "27",
+    "dayName": "Wed",
+    "weatherIcon": "fct_med_grey2",
+    "weatherIconPercent": "44%",
+    "highTempRange": "82 to 92 °F",
+    "lowTempRange": "63 to 73 °F"
+  },
+  {
+    "dayOfMonth": "28",
     "dayName": "Thu",
     "weatherIcon": "fct_transition",
-    "weatherIconPercent": "36%",
-    "highTempRange": "88 to 98 °F",
-    "lowTempRange": "67 to 77 °F"
+    "weatherIconPercent": "31%",
+    "highTempRange": "81 to 91 °F",
+    "lowTempRange": "62 to 72 °F"
+  },
+  {
+    "dayOfMonth": "29",
+    "dayName": "Fri",
+    "weatherIcon": "fct_risky_black",
+    "weatherIconPercent": "48%",
+    "highTempRange": "82 to 92 °F",
+    "lowTempRange": "61 to 71 °F"
+  },
+  {
+    "dayOfMonth": "30",
+    "dayName": "Sat",
+    "weatherIcon": "fct_transition",
+    "weatherIconPercent": "38%",
+    "highTempRange": "81 to 91 °F",
+    "lowTempRange": "60 to 70 °F"
   }
 ]
