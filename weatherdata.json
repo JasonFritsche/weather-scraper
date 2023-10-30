@@ -80,14 +80,6 @@
     "lowTempRange": "59 to 69 °F"
   },
   {
-    "dayOfMonth": "11",
-    "dayName": "Wed",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "18%",
-    "highTempRange": "80 to 90 °F",
-    "lowTempRange": "58 to 68 °F"
-  },
-  {
     "dayOfMonth": "12",
     "dayName": "Thu",
     "weatherIcon": "fct_sun",
@@ -166,14 +158,6 @@
     "weatherIconPercent": "30%",
     "highTempRange": "75 to 85 °F",
     "lowTempRange": "54 to 64 °F"
-  },
-  {
-    "dayOfMonth": "22",
-    "dayName": "Sun",
-    "weatherIcon": "fct_sun",
-    "weatherIconPercent": "30%",
-    "highTempRange": "75 to 85 °F",
-    "lowTempRange": "53 to 63 °F"
   },
   {
     "dayOfMonth": "23",
